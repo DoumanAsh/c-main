@@ -1,0 +1,21 @@
+[package]
+name = "c-main"
+version = "1.0.0"
+edition = "2018"
+repository = "https://github.com/DoumanAsh/c-main"
+readme = "README.md"
+license = "BSL-1.0"
+include = [
+    "**/*.rs",
+    "Cargo.toml",
+    "README.md",
+    "LICENSE"
+]
+description = "C main style entry point"
+keywords = [
+    "main"
+]
+
+[dependencies.libc]
+version = "0.2"
+default-features = false
